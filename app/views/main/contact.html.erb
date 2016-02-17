@@ -1,0 +1,56 @@
+<div class="content-area">
+	<div class="contact-form">
+				<!-- This form will allow the user to send the owner an email. We'll ask for:
+				Name 
+				Company (limit length)
+				Email (validate is an email)
+				Text (Description of what they need.)
+			We'll want to limit number of emails that 
+			can be sent.
+		-->
+		<form action="/sendemail" id="userform" method="post" name="usersform" autocomplete="on">
+			<h4 class="header_text">Contact Me<span class="period">.</span></h4>
+			<h6 class="header_text">Thanks for taking the time to stop by. Send me a message if you want to get in touch.</h6>
+			<div class="form_field">
+				<div class="row top_row">
+					<input type="text" id="full_name" class="six columns" name="f_name" title="Your name." x-moz-errormessage="That's not a real name." placeholder="Your Name" autofocus required>
+
+					<input type="text" id="company_name" class="six columns" name="c_name" title="Provide your company name or the company that you work with." placeholder="Company Name">
+				</div>
+				<div class="row top_row">
+					<input type="email" id="user_email" class="six columns" name="u_email" title="Provide your email." x-moz-errormessage="This is not a valid email." placeholder="Email" required>
+
+					<input type="text" id="user_phone" class="six columns" name="u_phone" title="Provide your phone."  placeholder="Phone Number">
+
+				</div>
+				<div class="row top_row">
+					<input type="text" id="user_subject" class="twelve columns" name="u_subject" title="Email Subject" placeholder="Email Subject" required>
+				</div>
+				<textarea name="u_message" id="user_message" cols="30" rows="10" placeholder="If you have a job or a question for me, let me know here. Or just say hi." required></textarea>
+			</div>
+			<div class="row button_area">
+				<button id="sendButton" class="offset-by-ten two columns form_button" type="submit">Send <i class="fa fa-paper-plane-o fa-lg at-symbol"></i></button>
+			</div>
+		</form>
+	</div>
+	<hr>
+	<div class="social_info">
+		<h6 class="header_text">Don't like forms? Reach out to me online or just send me an <a href="mailto:cleverjenny@gmail.com">email</a><i> (cleverjenny at gmail dot com)</i> directly.</h6>
+	</div>
+	<div class="social-icons">
+		<div class="row">
+			<div class="offset-by-five one column">
+				<a href="https://www.facebook.com/cleverjenny" target="new"><i class="fa fa-facebook-square fa-2x"></i></a>
+			</div>
+			<div class="one column">
+
+				<a href="https://www.linkedin.com/in/cleverjenny" target="new"><i class="fa fa-linkedin-square fa-2x"></i></a>
+			</div>
+
+			<div class="one column">
+				<a href="mailto:cleverjenny@gmail.com" target="new" title="Click this link to open up your default email."><i class="fa fa-envelope fa-2x tooltip"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
