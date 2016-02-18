@@ -1,6 +1,13 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Let's set some variables.
+
+$header-font: 'Pacifico', cursive;
+$header-font-color: rgba(44, 62, 80,1.0);
+
+
 /*Set body height and background image.*/
 
 html {
@@ -17,37 +24,40 @@ body {
 }
 
 /*Global*/
+
+/* Links */
+
 a {
-	color: black;
+	color: rgba(44, 62, 80,1.0);
 }
 
 a:hover {
-	color: black;
+	color: rgba(44, 62, 80,1.0);
 }
+
+h1 {
+	a:link {
+		text-decoration: none;
+		color: rgba(44, 62, 80,1.0);
+	}
+}
+
+/* Set wrapper */
 
 .wrapper {
 	min-height: 100%;
 }
 
-.header_text {
-	color: rgba(44, 62, 80,1.0);
-	margin-left: 10px;
-}
+/* Top Line Header Color and Maring*/
 
-.period {
-	color: rgba(52, 152, 219,1.0);
-}
 
-/*Main Header Link*/
+
 .page-header {
-	font-family: cursive;
+	font-family: $header-font;
 	text-align: center;
+	color: $header-font-color;
 }
 
-h1 > a:link {
-	text-decoration: none;
-	color: black;
-}
 
 /*Setting Navigation*/
 .nav-list {

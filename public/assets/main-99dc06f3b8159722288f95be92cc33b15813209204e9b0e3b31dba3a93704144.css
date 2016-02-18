@@ -1,0 +1,126 @@
+/*Set body height and background image.*/
+/* line 7, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+html {
+  height: 100%;
+}
+
+/* line 11, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+body {
+  height: 100%;
+  background: url(cityscape_nyc.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*Global*/
+/* line 21, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+a {
+  color: green;
+}
+
+/* line 25, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+a:hover {
+  color: black;
+}
+
+/* line 29, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.wrapper {
+  min-height: 100%;
+}
+
+/* line 33, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.header_text {
+  color: #2c3e50;
+  margin-left: 10px;
+}
+
+/* line 38, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.period {
+  color: #3498db;
+}
+
+/*Main Header Link*/
+/* line 43, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.page-header {
+  font-family: cursive;
+  text-align: center;
+}
+
+/* line 48, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+h1 > a:link {
+  text-decoration: none;
+  color: black;
+}
+
+/*Setting Navigation*/
+/* line 54, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.nav-list {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 61, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+ul > li {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+/* line 66, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.nav-button {
+  background-color: rgba(236, 240, 241, 0.5);
+  width: 125px;
+}
+
+/* line 71, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.fun-image {
+  width: 100%;
+  height: auto;
+}
+
+/*Footer*/
+/* line 78, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+footer {
+  margin: 0;
+  padding: 0;
+  height: 4em;
+  width: 100%;
+}
+
+/* line 85, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.cat-button {
+  background-color: rgba(236, 240, 241, 0.6);
+}
+
+/* line 89, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.cat-button:active {
+  background-color: rgba(236, 240, 241, 0.9);
+  box-shadow: 1px 10px 10px -1px rgba(236, 240, 241, 0.9);
+}
+
+/* line 94, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.cat-image {
+  text-align: center;
+}
+
+/* line 97, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.cat {
+  height: auto;
+  width: auto;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+/* line 104, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.copyright-area {
+  display: none;
+  background-color: rgba(236, 240, 241, 0.8);
+}
+
+/* line 109, /Users/troys/Documents/Programming/jennyport2/jennyportfolio/app/assets/stylesheets/main.scss */
+.copyright {
+  text-align: center;
+}

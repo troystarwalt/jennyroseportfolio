@@ -155,14 +155,6 @@ p {
   margin-top: 0; }
 
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  color: #1EAEDB; }
-a:hover {
-  color: #0FA0CE; }
-
-
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
@@ -221,6 +213,25 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  
+.button_area {
+  margin-right: 0px;
+}
+
+#sendButton {
+  background-color: rgba(127, 140, 141,0.8);
+}
+
+.social_links {
+  width: 33%;
+  text-align: center;
+}
+
+  
+}
 
 
 /* Forms
@@ -402,8 +413,7 @@ there.
 */
 
 
-/* Larger than mobile */
-@media (min-width: 400px) {}
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
