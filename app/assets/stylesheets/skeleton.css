@@ -215,7 +215,7 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (max-width: 500px) {
   
 .button_area {
   margin-right: 0px;
@@ -223,6 +223,7 @@ input[type="button"].button-primary:focus {
 
 #sendButton {
   background-color: rgba(127, 140, 141,0.8);
+  width: 100%;
 }
 
 .social_links {
@@ -385,8 +386,8 @@ form {
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 

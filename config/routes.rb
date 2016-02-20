@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   get 'work', to: 'main#work'
 
+  post 'sendemail', to: 'main#create'
+
+
   root 'main#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

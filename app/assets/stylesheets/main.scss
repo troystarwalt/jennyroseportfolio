@@ -82,6 +82,19 @@ ul > li {
 	height: auto;
 }
 
+@media (max-width: 500px) {
+
+	ul {
+		li{
+			display: block;
+		}
+	}
+
+	.nav-button {
+		width: 100%;
+	}
+}
+
 /*Footer*/
 
 footer {
