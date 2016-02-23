@@ -8,6 +8,7 @@ $header-font: 'Pacifico', cursive;
 $header-font-color: rgba(44, 62, 80,1.0);
 
 
+
 /*Set body height and background image.*/
 
 html {
@@ -40,6 +41,10 @@ h1 {
 		text-decoration: none;
 		color: rgba(44, 62, 80,1.0);
 	}
+}
+
+.period {
+	color: rgba(52, 152, 219,1.0);
 }
 
 /* Set wrapper */
