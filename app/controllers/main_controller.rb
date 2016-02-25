@@ -14,13 +14,16 @@ class MainController < ApplicationController
 
   def create
 
- 	@message = Message.new(params[:message])
+    @message = Message.new(params[:message])
 
- 	if @message.valid?
+    if @message.valid?
 
- 		UserMailer.new_message(@message).deliver
- 		redirect_to(root_path, :notice => "Message was successfully sent.")
+     UserMailer.new_message(@message).deliver
+     redirect_to(root_path, :notice => "Thanks for reaching out. I'll get back to you soon!")
 
- 	end
+      else 
+    redirect_to(contact_path, :notice => "Sorry you need to include a real email.")
+
+    end
   end
 end

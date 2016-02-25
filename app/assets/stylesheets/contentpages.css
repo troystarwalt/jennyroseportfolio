@@ -8,6 +8,12 @@
 	border-radius: 4px;
 }
 
+
+.welcome {
+	font-family: QuarkBold;
+	font-size: 3em;
+}
+
 /*Index*/
 .carousel {
 	width: 100%;
@@ -18,9 +24,9 @@
 	margin-bottom: .6em;
 }
 
-#user_message {
+.user_message {
 	resize: none;
-	width: 100%;
+	min-height: 200px;
 }
 
 .form_field {
@@ -56,8 +62,14 @@
           box-shadow: 0 8px 6px -6px black;
 }
 
+.listWork p {
+	font-family: QuarkBold;
+	font-size: 1.2em;
+}
+
 
 .job-header {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
 }
+

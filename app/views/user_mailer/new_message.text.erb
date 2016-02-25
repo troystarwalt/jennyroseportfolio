@@ -1,8 +1,18 @@
-	Name: <%= @message.name %>
 
-	Company: <%= @message.company %>
- Email: <%= @message.email %>
- Phone: <%=	@message.phone %>
 
- Subject: <%= @message.subject %>
- Body: <%= @message.body %>s
+On <%= Time.now.strftime("%A %b %e %Y at %I:%M %p" ) %>, <%= @message.name %> reached out to say:
+
+Subject: <%= @message.subject %>
+
+Body:
+<%= @message.body %>
+
+
+Their contact info:
+
+		Name: <%= @message.name %>
+		Company: <%= @message.company %>
+		Email: <%= @message.email %>
+		<% if @message.phone %>
+		Phone: <%=	@message.phone %>
+		<% end %>

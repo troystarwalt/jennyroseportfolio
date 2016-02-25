@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+
+@font-face {
+	font-family: SensaSans;
+	src: url('/fonts/SensaSans-RegularDemo.otf');
+}
+
+@font-face {
+	font-family: QuarkLight;
+	src: url('/fonts/Quark-Light.otf');
+}
+
+@font-face {
+	font-family: QuarkBold;
+	src: url('/fonts/Quark-Light.otf');
+}

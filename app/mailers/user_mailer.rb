@@ -1,6 +1,6 @@
 class UserMailer < ActionMailer::Base
 
-	default from: "no-reply@dylodesigns.com"
+	default from: "no-reply@jennyrosetv.com"
 	default to: "troy.starwalt@gmail.com"
 
 	def new_message(message)
