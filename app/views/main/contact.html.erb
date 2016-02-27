@@ -9,30 +9,30 @@
 			can be sent.
 		-->
 		<%= form_for @message, :url => sendemail_path do |f| %>
-		<h4 class="header_text">Contact Me<span class="period">.</span></h4>
-		<h6 class="header_text">Thanks for taking the time to stop by. Send me a message if you want to get in touch.</h6>
-		<div class="row top_row">
-			<%= f.text_field :name,  id: "full_name", class: "six columns", placeholder: "Name" %>
-			<%= f.text_field :company, id: "company_name", class: "six columns", placeholder: "Company Name" %>
-		</div>
+			<h4 class="header_text">Contact Me<span class="period">.</span></h4>
+			<h6 class="header_text">Thanks for taking the time to stop by. Send me a message if you want to get in touch.</h6>
+			<div class="row top_row">
+				<%= f.text_field :name,  id: "full_name", class: "six columns", placeholder: "Name" %>
+				<%= f.text_field :company, id: "company_name", class: "six columns", placeholder: "Company Name" %>
+			</div>
 
-		<div class="row top_row">
-			<%= f.text_field :email, class: "six columns", placeholder: "Email" %>
-			<%= f.text_field :phone, class: "six columns", placeholder: "Phone: 932-213-9385" %>
-		</div>
+			<div class="row top_row">
+				<%= f.text_field :email, class: "six columns", placeholder: "Email" %>
+				<%= f.text_field :phone, class: "six columns", placeholder: "Phone: 932-213-9385" %>
+			</div>
 
-		<div class="row top_row">
-			<%= f.text_field :subject, class: "twelve columns", placeholder: "Email Subject" %>
+			<div class="row top_row">
+				<%= f.text_field :subject, class: "twelve columns", placeholder: "Email Subject" %>
 
-		</div>
+			</div>
 
-		<div class="row top_row">
-			<%= f.text_area :body, class: "twelve columns user_message", placeholder: "If you have a job or a question for me, let me know here. Or just say hi."  %>
-		</div>
+			<div class="row top_row">
+				<%= f.text_area :body, class: "twelve columns user_message", placeholder: "If you have a job or a question for me, let me know here. Or just say hi."  %>
+			</div>
 
-		<%= f.button id: "sendButton" do %>
-		Send <i class="fa fa-paper-plane-o fa-lg form_button"></i>
-		<% end %>
+			<%= f.button id: "sendButton" do %>
+				Send <i class="fa fa-paper-plane-o fa-lg form_button"></i>
+			<% end %>
 		<% end %>
 		<hr>
 
@@ -57,4 +57,5 @@
 			</div>
 		</div>
 	</div>
+</div>
 

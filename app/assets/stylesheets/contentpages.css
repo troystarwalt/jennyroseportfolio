@@ -8,12 +8,6 @@
 	border-radius: 4px;
 }
 
-
-.welcome {
-	font-family: QuarkBold;
-	font-size: 3em;
-}
-
 /*Index*/
 .carousel {
 	width: 100%;
@@ -67,9 +61,17 @@
 	font-size: 1.2em;
 }
 
-
 .job-header {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
 }
 
+.download {
+	padding-top: 4px;
+}
+
+/*About*/
+
+.resume-text {
+	font-size: 1.5em;
+}

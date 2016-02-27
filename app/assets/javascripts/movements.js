@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 
-window.onload = function () {
+$(document).on("ready page:load", function(){
 	var catButton = document.getElementById('catButton');
 	catButton.onclick = function() {
 		var catDiv = document.getElementById('copyrightArea');
@@ -13,9 +13,10 @@ window.onload = function () {
 		}
 		else {
 			catDiv.style.display = 'block';
+			window.scrollBy( 0, 20);
 			console.log("hi");
 		}
 	};
-};
+});
 
 
