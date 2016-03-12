@@ -20,15 +20,15 @@
 
 @font-face {
 	font-family: SensaSans;
-	src: url('/fonts/SensaSans-RegularDemo.otf');
+	src: url('SensaSans-RegularDemo.otf');
 }
 
 @font-face {
 	font-family: QuarkLight;
-	src: url('/fonts/Quark-Light.otf');
+	src: url('Quark-Light.otf');
 }
 
 @font-face {
 	font-family: QuarkBold;
-	src: url('/fonts/Quark-Light.otf');
+	src: url('Quark-Light.otf');
 }
