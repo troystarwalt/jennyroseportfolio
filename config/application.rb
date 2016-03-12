@@ -22,7 +22,7 @@ module Jennyportfolio
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    config.assets.precompile += %w(main.scss)
+    config.assets.precompile += %w(.scss .css .svg .otf)
     config.serve_static_files = true
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
   end
