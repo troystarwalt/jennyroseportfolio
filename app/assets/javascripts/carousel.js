@@ -10,3 +10,5 @@ $(document).on("ready page:load", function(){
     cssEase: 'linear'
   });
 });
+
+console.log("hi");
