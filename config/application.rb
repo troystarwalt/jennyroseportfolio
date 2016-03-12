@@ -24,5 +24,6 @@ module Jennyportfolio
     config.active_record.raise_in_transactional_callbacks = true
     config.assets.precompile += %w(main.scss)
     config.serve_static_files = true
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
   end
 end
