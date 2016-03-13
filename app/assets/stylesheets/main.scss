@@ -8,7 +8,20 @@ $header-font: 'SensaSans', cursive;
 $header-font-color: rgba(44, 62, 80,1.0);
 
 
+@font-face {
+	font-family: SensaSans;
+	src: font-url('/assets/SensaSans-RegularDemo.otf');
+}
 
+@font-face {
+	font-family: QuarkLight;
+	src: font-url('/assets/Quark-Light.otf');
+}
+
+@font-face {
+	font-family: QuarkBold;
+	src: font-url('/assets/Quark-Bold.otf');
+}
 
 /*Set body height and background image.*/
 
