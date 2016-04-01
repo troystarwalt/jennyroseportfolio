@@ -13,6 +13,12 @@
 	width: 100%;
 }
 
+.resize {
+	width: 450px;
+	height: auto;
+	padding-top: 10px;
+}
+
 /* Contact Page */
 .top_row {
 	margin-bottom: .6em;
