@@ -13,6 +13,10 @@
 	width: 100%;
 }
 
+.photo-div {
+	padding-left: .5em;
+}
+
 .resize {
 	width: 450px;
 	height: auto;
