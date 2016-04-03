@@ -14,7 +14,7 @@
 }
 
 .photo-div {
-	padding-left: .5em;
+	padding-left: 1em;
 }
 
 .resize {
@@ -66,8 +66,8 @@
 }
 
 .listWork p {
-	font-family: 'QuarkLight', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 1.2em;
+	font-family: 'Garamond';
+	font-size: 1.1em;
 }
 
 .listWork:hover {
@@ -107,6 +107,12 @@ a.downloadlink {
 
 /*About*/
 
-.resume-text {
-	font-size: 1.5em;
+.resume_text {
+	font-size: 1.2em;
+	font-family: "Garamond";
+}
+
+.helper_text {
+	font-size: 1em;
+	font-family: "Garamond";
 }
