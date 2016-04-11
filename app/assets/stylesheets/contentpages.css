@@ -23,6 +23,10 @@
 	padding-top: 10px;
 }
 
+.welcome {
+	text-align: center;
+}
+
 /* Contact Page */
 .top_row {
 	margin-bottom: .6em;

@@ -9,7 +9,7 @@
 			can be sent.
 		-->
 		<%= form_for @message, :url => sendemail_path do |f| %>
-			<h4 class="header_text">Contact Me<span class="period">.</span></h4>
+			<h4 class="welcome">Contact Me<span class="period">.</span></h4>
 			<h5 class="resume_text">Thanks for taking the time to stop by. Send me a message if you want to get in touch.</h5>
 			<div class="row top_row">
 				<%= f.text_field :name,  id: "full_name", class: "six columns", placeholder: "Name" %>
