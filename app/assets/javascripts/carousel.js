@@ -4,12 +4,12 @@ $(document).on("ready page:load", function(){
         infinite: true,
         speed: 300,
         centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
+        slidesToShow: 1,
         variableWidth: true,
         variableHeight: true,
-        adaptiveHeight: true,
         arrows: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
         cssEase: 'linear'
     });
 });
