@@ -1,16 +1,14 @@
 $(document).on("ready page:load", function(){
-    console.log("hi");
     $('.carousel').slick({
         infinite: true,
         speed: 300,
         centerMode: true,
-        slidesToShow: 1,
-        variableWidth: true,
-        variableHeight: true,
+        slidesToShow: 2,
+        variableWidth: false,
+        variableHeight: false,
         arrows: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         cssEase: 'linear'
     });
 });
-

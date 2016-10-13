@@ -54,10 +54,10 @@
     width: 95%; }
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-left: 2%; }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0; }
+    margin-left: 2%; }
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
@@ -216,7 +216,7 @@ input[type="button"].button-primary:focus {
 
 /* Larger than mobile */
 @media (max-width: 500px) {
-  
+
 .button_area {
   margin-right: 0px;
 }
@@ -231,7 +231,7 @@ input[type="button"].button-primary:focus {
   text-align: center;
 }
 
-  
+
 }
 
 

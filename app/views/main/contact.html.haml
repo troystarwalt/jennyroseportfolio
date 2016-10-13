@@ -1,0 +1,47 @@
+.content-area
+  .contact-form
+    /
+      This form will allow the user to send the owner an email. We'll ask for:
+      Name
+      Company (limit length)
+      Email (validate is an email)
+      Text (Description of what they need.)
+      We'll want to limit number of emails that
+      can be sent.
+    = form_for @message, :url => sendemail_path do |f|
+      %h4.welcome
+        Contact Me
+        %span.period .
+      %h5.resume_text Thanks for taking the time to stop by. Send me a message if you want to get in touch.
+      .row.top_row
+        = f.text_field :name,  id: "full_name", class: "six columns", placeholder: "Name"
+        = f.text_field :company, id: "company_name", class: "six columns", placeholder: "Company Name"
+      .row.top_row
+        = f.text_field :email, class: "six columns", placeholder: "Email"
+        = f.text_field :phone, class: "six columns", placeholder: "Phone: 932-213-9385"
+      .row.top_row
+        = f.text_field :subject, class: "twelve columns", placeholder: "Email Subject"
+      .row.top_row
+        = f.text_area :body, class: "twelve columns user_message", placeholder: "If you have a job or a question for me, let me know here. Or just say hi."
+      = f.button id: "sendButton" do
+        Send
+        %i.fa.fa-paper-plane-o.fa-lg.form_button
+    %hr/
+    .social-icons
+      .row
+        .nine.columns
+          .social_info
+            %h6.helper_text
+              Don't like forms? Reach out to me online or just send me an
+              %a{:href => "mailto:cleverjenny@gmail.com"} email
+              %i (cleverjenny at gmail dot com)
+              directly.
+        .one.columns.social_links
+          %a{:href => "https://www.facebook.com/cleverjenny", :target => "new"}
+            %i.fa.fa-facebook-square.fa-2x
+        .one.columns.social_links
+          %a{:href => "https://www.linkedin.com/in/cleverjenny", :target => "new"}
+            %i.fa.fa-linkedin-square.fa-2x
+        .one.columns.social_links
+          %a{:href => "mailto:cleverjenny@gmail.com", :target => "new", :title => "Click this link to open up your default email."}
+            %i.fa.fa-envelope.fa-2x.tooltip

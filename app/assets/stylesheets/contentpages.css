@@ -10,7 +10,9 @@
 
 /*Index*/
 .carousel {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
 }
 
 .photo-div {
@@ -18,9 +20,15 @@
 }
 
 .resize {
-	width: auto;
-	max-height: 300px;
-	padding-top: 10px;
+	width: 50%;
+	height: auto;
+	/*padding-top: 10px;*/
+	text-align: center;
+	margin: 0 auto;
+}
+
+.shorty {
+	margin-top: 34px
 }
 
 .welcome {
@@ -157,7 +165,7 @@ a.downloadlink {
 @media (max-width: 700px) {
 	.photo-div {
 		width: 100vw;
-	}	
+	}
 
 	.resize {
 		width: 75%;
