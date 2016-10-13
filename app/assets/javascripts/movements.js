@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(".main.work").ready(function(){
+	console.log(this);
 	var $animation_elements = $('.listWork');
 	var $window = $(window);
 
