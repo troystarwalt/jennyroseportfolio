@@ -1,6 +1,33 @@
-%h1 We have big news!
-%p We are pregant! The due date is #{@pretty_date}!
-%p
-  There are only
-  = @days_left
-  days left!
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %title Surprise!
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    / Mobile Specific Metas
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    / Font Icons and Fonts
+    %link{:href => "https://fonts.googleapis.com/css?family=Pacifico", :rel => "stylesheet", :type => "text/css"}/
+    = csrf_meta_tags
+    %link{:href => "https://fonts.googleapis.com/css?family=Montserrat", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "https://fonts.googleapis.com/css?family=Nixie+One", :rel => "stylesheet", :type => "text/css"}/
+  %body{:class => "#{controller_name} #{action_name}"}
+    .wrapper
+      %h1 We are pregnant!
+      %p Due Date: #{@pretty_date}
+      %p Other Details? None right now. :)
+      %p
+        There are only
+        = @days_left
+        days left though!
+
+  :javascript
+      function ran_col() {
+        var color = '#';
+        var letters = ['#ecf0f1', 'BFE9EA', '80CFA9', 'FEFCFD', 'FFEEDB'];
+        color += letters[Math.floor(Math.random() * letters.length)];
+        document.querySelector('body').style.background = color;
+        console.log(this);
+      }
+      ran_col();
