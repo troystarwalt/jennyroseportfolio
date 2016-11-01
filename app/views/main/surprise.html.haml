@@ -16,11 +16,16 @@
     .wrapper
       %h1 We are pregnant!
       %p Due Date: #{@pretty_date}
-      %p Other Details? None right now. :)
       %p
         There are only
         = @days_left
         days left though!
+      %h2
+        We found out that we are having a
+        %span#secretAnnouncement
+          hmm
+        %span><
+          !
 
   :javascript
       function ran_col() {
@@ -28,6 +33,24 @@
         var letters = ['#ecf0f1', 'BFE9EA', '80CFA9', 'FEFCFD', 'FFEEDB'];
         color += letters[Math.floor(Math.random() * letters.length)];
         document.querySelector('body').style.background = color;
-        console.log(this);
       }
       ran_col();
+      function make_text() {
+        // make array
+        var sex = ["boy", "girl", "cat"];
+        //Grab the element that we want to change.
+        var x = document.getElementById('secretAnnouncement');
+        // Randomize some stuff.
+        var value = sex[Math.floor(Math.random() * sex.length)];
+
+        window.setTimeout( "make_text()", 2000);
+        function change_text() {
+          x.innerHTML = value;
+        }
+
+        if (x.textContent == "boy") {
+          return;
+        }
+        change_text();
+      };
+      make_text();
