@@ -22,7 +22,7 @@
         days left though!
       %h2
         We found out that we are having a
-        %span#secretAnnouncement
+        %span#secretAnnouncement.notCorrect
           hmm
         %span><
           !
@@ -43,12 +43,14 @@
         // Randomize some stuff.
         var value = sex[Math.floor(Math.random() * sex.length)];
 
-        window.setTimeout( "make_text()", 2000);
+        window.setTimeout( "make_text()", 1000);
         function change_text() {
           x.innerHTML = value;
         }
 
         if (x.textContent == "boy") {
+          x.classList.remove("notCorrect");
+          x.classList.add("aBoy");
           return;
         }
         change_text();
