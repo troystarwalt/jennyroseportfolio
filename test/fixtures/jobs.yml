@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 
+  company: 
+  date_start: 
+  end: 
+  type: 
+  network: 
+  job_title: MyString
+
+two:
+  name: 
+  company: 
+  date_start: 
+  end: 
+  type: 
+  network: 
+  job_title: MyString
