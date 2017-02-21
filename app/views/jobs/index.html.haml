@@ -12,7 +12,7 @@
         %h4.job-header= job.name
         %p= job.company
         %p
-          = job.date_start.strftime("%b '%y")
+          = job.date_start.nil? ? "" : job.date_start.strftime("%b '%y")
           |
           - if job.date_end.nil?
             = "Present"
