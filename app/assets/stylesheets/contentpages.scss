@@ -3,6 +3,7 @@
 	height: 100%;
 	margin-bottom: 4.5em;
 	margin-top: .5em;
+  padding-top: 40px;
 	padding-left: .5em;
 	padding-right: .5em;
 	border-radius: 4px;
@@ -75,11 +76,15 @@
 	-webkit-box-shadow: 0 8px 6px -6px #2c3e50;
 	-moz-box-shadow: 0 8px 6px -6px #2c3e50;
 	box-shadow: 0 8px 6px -6px #2c3e50;
-}
-
-.listWork p {
-	font-family: 'Garamond';
-	font-size: 1.1em;
+  p {
+    font-family: 'Garamond';
+    font-size: 1.1em;
+    margin-bottom: 1rem;
+    letter-spacing: .5px;
+  }
+  p:first-of-type {
+    margin-bottom: 3.5rem;
+  }
 }
 
 .listWork:hover {
@@ -91,6 +96,8 @@
 .job-header {
 	font-family: 'QuarkBold', sans-serif;
 	font-size: 2em;
+  margin-bottom: .5rem;
+  letter-spacing: 1.5px;
 }
 
 .download {
@@ -101,6 +108,7 @@
 	background-color: rgba(44, 62, 80,1.0);
 	font-size: 1em;
 	margin-top: .5em;
+  margin-right: 4%;
 }
 
 .download-button:hover {

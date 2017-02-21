@@ -1,2 +1,23 @@
-%h1 Jobs#index
-%p Find me in app/views/jobs/index.html.haml
+.content-area
+  .row
+    .six.columns
+      %h2.work-welcome{:name => "top"} My Projects
+    .six.columns
+      %button.u-pull-right.download-button
+        =link_to "Download Resume", "https://www.dropbox.com/s/w6efo086i13sk3e/Jenny%20Rose%20Resume%20Aug%202016.pdf?dl=0", class: "downloadlink"
+        %i.fa.fa-download.download
+  .row.grid
+    - @jobs.each do |job|
+      .four.columns.listWork.bounce-up.grid-item
+        %h4.job-header= job.name
+        %p= job.company
+        %p
+          = job.date_start.strftime("%b '%y")
+          |
+          - if job.date_end.nil?
+            = "Present"
+          - else
+            = job.date_end.strftime("%b '%y")
+        %p= job.job_type
+        %p= job.network
+        %p= job.job_title
