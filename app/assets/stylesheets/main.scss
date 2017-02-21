@@ -4,24 +4,24 @@
 
 // Let's set some variables.
 
+@font-face {
+	font-family: "SensaSans";
+	src: font-url('SensaSans-RegularDemo.otf');
+}
+@font-face {
+  font-family: "QuarkLight";
+  src: font-url('Quark-Light.otf');
+  src: font-url('Quark-Light.woff') format('woff'),
+}
+
+@font-face {
+	font-family: "QuarkBold";
+	src: font-url('Quark-Bold.otf');
+  src: font-url('Quark-Bold.woff') format('woff');
+}
+
 $header-font: 'SensaSans', 'Pacifico', cursive;
 $header-font-color: rgba(44, 62, 80,1.0);
-
-
-@font-face {
-	font-family: SensaSans;
-	src: font-url('/assets/SensaSans-RegularDemo.otf');
-}
-
-@font-face {
-	font-family: QuarkLight;
-	src: font-url('/assets/Quark-Light.otf');
-}
-
-@font-face {
-	font-family: QuarkBold;
-	src: font-url('/assets/Quark-Bold.otf');
-}
 
 /*Set body height and background image.*/
 
