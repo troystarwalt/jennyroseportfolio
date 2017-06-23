@@ -1,81 +1,86 @@
 .content-area {
-	background-color: rgba(236, 240, 241, 0.8);
-	height: 100%;
-	margin-bottom: 4.5em;
-	margin-top: .5em;
+  background-color: rgba(236, 240, 241, 0.8);
+  height: 100%;
+  margin-bottom: 4.5em;
+  margin-top: .5em;
   padding-top: 40px;
-	padding-left: .5em;
-	padding-right: .5em;
-	border-radius: 4px;
+  padding-left: .5em;
+  padding-right: .5em;
+  border-radius: 4px;
 }
 
 /*Index*/
 .carousel {
-	max-width: 100%;
-	height: auto;
-	display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .photo-div {
-	padding: 0 5px 0 5px;
+  padding: 0 5px 0 5px;
 }
 
 .resize {
-	width: 50%;
-	height: auto;
-	/*padding-top: 10px;*/
-	text-align: center;
-	margin: 0 auto;
+  width: 50%;
+  height: auto;
+  /*padding-top: 10px;*/
+  text-align: center;
+  margin: 0 auto;
 }
 
 .shorty {
-	margin-top: 34px
+  margin-top: 34px
+}
+
+h2,
+h4 {
+  letter-spacing: 1.2pt;
 }
 
 .welcome {
-	text-align: center;
+  text-align: center;
 }
 
 /* Contact Page */
 .top_row {
-	margin-bottom: .6em;
+  margin-bottom: .6em;
 }
 
 .user_message {
-	resize: none;
-	min-height: 200px;
+  resize: none;
+  min-height: 200px;
 }
 
 .form_field {
-	margin-left: 10px;
-	margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .button_area {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 #sendButton {
-	background-color: rgba(127, 140, 141,0.8);
-	min-width: 5em;
+  background-color: rgba(127, 140, 141,0.8);
+  min-width: 5em;
 }
 
 #sendButton:hover {
-	background-color: rgba(44, 62, 80,1.0);
-	color: white;
-	transition: width 100%;
+  background-color: rgba(44, 62, 80,1.0);
+  color: white;
+  transition: width 100%;
 }
 
 /*Work Page*/
 
 .listWork {
-	border: 0.1em solid rgba(189, 195, 199,1.0);
-	border-radius: 4px;
-	padding: 5px;
-	margin-bottom: 1em;
-	-webkit-box-shadow: 0 8px 6px -6px #2c3e50;
-	-moz-box-shadow: 0 8px 6px -6px #2c3e50;
-	box-shadow: 0 8px 6px -6px #2c3e50;
+  border: 0.1em solid rgba(189, 195, 199,1.0);
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 0 8px 6px -6px #2c3e50;
+  -moz-box-shadow: 0 8px 6px -6px #2c3e50;
+  box-shadow: 0 8px 6px -6px #2c3e50;
   p {
     font-family: 'Garamond';
     font-size: 1.1em;
@@ -88,46 +93,46 @@
 }
 
 .listWork:hover {
-	-webkit-box-shadow: 1px 13px 45px -16px #34495e;
-	-moz-box-shadow: 1px 13px 45px -16px #34495e;
-	box-shadow: 1px 13px 45px -16px #34495e;
+  -webkit-box-shadow: 1px 13px 45px -16px #34495e;
+  -moz-box-shadow: 1px 13px 45px -16px #34495e;
+  box-shadow: 1px 13px 45px -16px #34495e;
 }
 
 .job-header {
-	font-family: 'QuarkBold', sans-serif;
-	font-size: 2em;
+  font-family: 'QuarkBold', sans-serif;
+  font-size: 2em;
   margin-bottom: .5rem;
   letter-spacing: 1.5px;
 }
 
 .download {
-	padding-top: 4px;
+  padding-top: 4px;
 }
 
 .download-button {
-	background-color: rgba(44, 62, 80,1.0);
-	font-size: 1em;
-	margin-top: .5em;
+  background-color: rgba(44, 62, 80,1.0);
+  font-size: 1em;
+  margin-top: .5em;
   margin-right: 4%;
   padding: 0 30px;
 }
 
 .download-button:hover {
-	background-color: rgba(236, 240, 241,0.5);
+  background-color: rgba(236, 240, 241,0.5);
 }
 
 .download-button:hover .downloadlink {
-	background-color: rgba(236, 240, 241,0.5);
-	color: rgba(44, 62, 80,1.0)
+  background-color: rgba(236, 240, 241,0.5);
+  color: rgba(44, 62, 80,1.0)
 }
 
 a.downloadlink {
-	color: rgba(236, 240, 241,1.0);
-	text-decoration: none;
+  color: rgba(236, 240, 241,1.0);
+  text-decoration: none;
 }
 
 .up {
-	margin-left: 50%;
+  margin-left: 50%;
 }
 
 .bounce-up {
@@ -158,32 +163,32 @@ a.downloadlink {
 /*About*/
 
 .resume_text {
-	font-size: 1.2em;
-	font-family: "Garamond";
+  font-size: 1.2em;
+  font-family: "Garamond";
 }
 
 .helper_text {
-	font-size: 1em;
-	font-family: "Garamond";
+  font-size: 1em;
+  font-family: "Garamond";
 }
 
 .surprise {
-	background: #ecf0f1;
-	padding: 100px;
+  background: #ecf0f1;
+  padding: 100px;
 }
 /**********/
 /* Media Query
 /**********/
 
 @media (max-width: 700px) {
-	.photo-div {
-		width: 100vw;
-	}
+  .photo-div {
+    width: 100vw;
+  }
 
-	.resize {
-		width: 75%;
-		height: auto;
-		text-align:center;
-		margin: 0 auto;
-	}
+  .resize {
+    width: 75%;
+    height: auto;
+    text-align:center;
+    margin: 0 auto;
+  }
 }
