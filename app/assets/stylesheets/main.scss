@@ -4,38 +4,38 @@
 
 // Let's set some variables.
 
+@font-face {
+  font-family: "SensaSans";
+  src: font-url('SensaSans-RegularDemo.otf');
+}
+@font-face {
+  font-family: "QuarkLight";
+  src: font-url('Quark-Light.otf');
+  src: font-url('Quark-Light.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "QuarkBold";
+  src: font-url('Quark-Bold.otf');
+  src: font-url('Quark-Bold.woff') format('woff');
+}
+
 $header-font: 'SensaSans', 'Pacifico', cursive;
 $header-font-color: rgba(44, 62, 80,1.0);
-
-
-@font-face {
-	font-family: SensaSans;
-	src: font-url('/assets/SensaSans-RegularDemo.otf');
-}
-
-@font-face {
-	font-family: QuarkLight;
-	src: font-url('/assets/Quark-Light.otf');
-}
-
-@font-face {
-	font-family: QuarkBold;
-	src: font-url('/assets/Quark-Bold.otf');
-}
 
 /*Set body height and background image.*/
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	height: 100%;
-	background: url(asset-path('cityscape_nyc.jpg')) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  height: 100%;
+  background: url(asset-path('cityscape_nyc.jpg')) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*Global*/
@@ -43,28 +43,29 @@ body {
 /* Links */
 
 a {
-	color: rgba(44, 62, 80,1.0);
+  color: rgba(44, 62, 80,1.0);
 }
 
 a:hover {
-	color: rgba(44, 62, 80,1.0);
+  color: rgba(44, 62, 80,1.0);
 }
 
 h1 {
-	a:link {
-		text-decoration: none;
-		color: rgba(44, 62, 80,1.0);
-	}
+  a:link {
+    text-decoration: none;
+    color: rgba(44, 62, 80,1.0);
+  }
 }
 
 .period {
-	color: rgba(52, 152, 219,1.0);
+  color: rgba(52, 152, 219,1.0);
 }
 
 /* Set wrapper */
 
 .wrapper {
-	min-height: 100%;
+  min-height: 100%;
+  padding-top: 40px;
 }
 
 /* Top Line Header Color and Maring*/
@@ -72,98 +73,98 @@ h1 {
 
 
 .page-header {
-	font-family: $header-font;
-	text-align: center;
-	color: $header-font-color;
+  font-family: $header-font;
+  text-align: center;
+  color: $header-font-color;
 }
 
 
 /*Setting Navigation*/
 .nav-list {
-	list-style: none;
-	text-align: center;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 ul > li {
-	display: inline-block;
-	margin-top: 1em;
+  display: inline-block;
+  margin-top: 1em;
 }
 
 .nav-button {
-	background-color: rgba(236, 240, 241, 0.5);
-	width: 125px;
+  background-color: rgba(236, 240, 241, 0.5);
+  width: 125px;
 }
 
 .fun-image {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 500px) {
 
-	ul {
-		li{
-			display: block;
-		}
-	}
+  ul {
+    li{
+      display: block;
+    }
+  }
 
-	.nav-button {
-		width: 100%;
-	}
+  .nav-button {
+    width: 100%;
+  }
 }
 
 /*Footer*/
 
 footer {
-	margin: 0;
-	padding: 0;
-	height: 4em;
-	width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 4em;
+  width: 100%;
 }
 
 .cat-button {
-	background-color: rgba(236, 240, 241, 0.6);
+  background-color: rgba(236, 240, 241, 0.6);
 }
 
 .cat-button:active {
-	background-color: rgba(236, 240, 241, 0.9);
-	box-shadow: 1px 10px 10px -1px rgba(236, 240, 241, 0.9);
+  background-color: rgba(236, 240, 241, 0.9);
+  box-shadow: 1px 10px 10px -1px rgba(236, 240, 241, 0.9);
 }
 
 .cat-image {
-	text-align: center;
+  text-align: center;
 }
 .cat {
-	height: auto;
-	width: auto;
-	max-width: 25px;
-	max-height: 25px;
+  height: auto;
+  width: auto;
+  max-width: 25px;
+  max-height: 25px;
 }
 
 .copyright-area {
-	display: none;
-	background-color: rgba(236, 240, 241, 0.8);
+  display: none;
+  background-color: rgba(236, 240, 241, 0.8);
 }
 
 .copyright {
-	text-align: center;
+  text-align: center;
 }
 
 // Notice
 
 .notice {
-	width: 100%;
-	background-color: white;
-	text-align: center;
+  width: 100%;
+  background-color: white;
+  text-align: center;
 }
 
 .notCorrect {
-	text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .aBoy {
-	text-decortation: underline;
-	font-size: 2em;
+  text-decoration: underline;
+  font-size: 2em;
 }
