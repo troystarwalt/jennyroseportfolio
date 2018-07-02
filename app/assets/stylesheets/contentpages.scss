@@ -115,15 +115,26 @@ h4 {
   margin-top: .5em;
   margin-right: 4%;
   padding: 0 30px;
+
+  i {
+    color: rgba(236, 240, 241,1.0);
+  }
 }
 
 .download-button:hover {
   background-color: rgba(236, 240, 241,0.5);
 }
 
-.download-button:hover .downloadlink {
+.download-button:hover {
+
+  .downloadlink {
   background-color: rgba(236, 240, 241,0.5);
   color: rgba(44, 62, 80,1.0)
+  }
+  
+  i {
+    color: rgba(44, 62, 80,1.0);
+  }
 }
 
 a.downloadlink {
